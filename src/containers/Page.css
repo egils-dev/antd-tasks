@@ -1,0 +1,11 @@
+.content {
+    flex-flow: row wrap;
+    width: 100%;
+    padding: 2px;
+    background-color: #377E8D;
+}
+.footer {
+    width: 100%;
+    background-color: #000000;
+    color: white;
+}

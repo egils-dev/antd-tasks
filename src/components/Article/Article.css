@@ -1,0 +1,31 @@
+.article {
+    background-color: #CADADF;
+    text-align: justify;
+    margin: 4px
+}
+
+.img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.btn {
+    background-color: transparent;
+    border-color: #377E8D;
+}
+
+.col:nth-of-type(3n) .article, 
+.col:nth-of-type(5n+2) .article {
+    background-color: #ffffff;
+}
+
+@media screen and (max-width: 767px) {
+    .col:nth-of-type(3n) .article, 
+    .col:nth-of-type(5n+2) .article {
+    background-color: #CADADF;
+}
+    .col:nth-of-type(even) .article {
+        background-color: #ffffff;
+    }
+}
